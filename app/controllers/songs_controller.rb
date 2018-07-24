@@ -10,5 +10,4 @@ class SongsController < ApplicationController
     erb :'/songs/new'
   end
 
-
 end

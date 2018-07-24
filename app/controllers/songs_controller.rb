@@ -2,7 +2,7 @@ require 'pry'
 class SongsController < ApplicationController
 
   get '/songs' do
-    @song = Song.all
+    @songs = Song.all
     erb :'/songs/index'
   end
 

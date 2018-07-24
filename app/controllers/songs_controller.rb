@@ -18,7 +18,7 @@ class SongsController < ApplicationController
 
     flash[:message] = "Successfully created song."
 
-    redirect("/songs/:slug")
+    redirect to "/songs/:slug"
   end
 
   get '/songs/:slug' do
